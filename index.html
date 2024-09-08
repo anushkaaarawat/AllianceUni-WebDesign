@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your Landing Page Description">
+    <meta name="keywords" content="Your, Keywords, Here">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="hero-section">
+        <nav class="navbar">
+            <div class="brand">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Courses Offered</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="toggle-menu">☰</div>
+        </nav>
+        <div class="hero-content">
+            <h1>Welcome to Alliance University</h1>
+            <p>Alliance University is a Private University established in Karnataka State by Act No.34 of year 2010 and is recognized by the University Grants Commission (UGC), New Delhi</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="campus-banner.jpg" alt="About Us Image">
+            </div>
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p>Alliance reimagines the idea of the university by creating a community that leads the charge against the complex challenges of the 21st century. The university conceives research to be the essence of all teaching and learning practices. A unity between research and teaching is promoted to extend the frontiers of knowledge in order to solve real world problems at the local, national, and global scale. For this purpose, the university seeks to be the nerve centre of interaction between the industry, the government, the civil society, and the community at large. In times when technological and social change is transforming the very idea of employability, the university embraces the increasing diversity of specializations while retaining the impulse to unify all knowledge. A designed convergence of the business, engineering, law and liberal arts units precipitates transdisciplinarity as the core academic philosophy. Freely working across divergent streams of knowledge like psychology and data science, technology and law, physics and philosophy or businesses and rhetoric, transdisciplinarity nurtures a dynamic foundation for the spirit of collaboration, inquiry, and enterprise.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <h2>Courses Offered</h2>
+        <div class="service-card">
+            <h3>B.Tech</h3>
+            <p>Description here.</p>
+        </div>
+        <div class="service-card">
+            <h3>LLB</h3>
+            <p>Description here.</p>
+        </div>
+        <div class="service-card">
+            <h3>BBA</h3>
+            <p>Description here.</p>
+        </div>
+        <!-- Corrected HTML for B.Com card -->
+        <div class="service-card">
+            <h3>B.Com</h3>
+            <p>Description here.</p>
+        </div>
+    </section>
+    
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Alliance University. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
